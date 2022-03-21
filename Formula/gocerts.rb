@@ -14,4 +14,9 @@ class Gocerts < Formula
   test do
     system "false"
   end
+
+  bottle do
+    root_url "https://n-arno.com/bottles"
+    sha256 cellar: :any_skip_relocation, big_sur: "2a2f436e967a16969f830ca26cd70992ba5c1df7cf49d72835aa50c5a8eaed7f"
+  end
 end
